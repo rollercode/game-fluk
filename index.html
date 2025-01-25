@@ -62,7 +62,7 @@
             display: none;
         }
 
-        .word {
+        /*.word {
             font-size: 10rem;
             font-weight: bold;
             margin: 2rem 0;
@@ -72,7 +72,105 @@
             border-radius: 20px;
             background-color: #333;
             color: #ffffff;
+        }*/
+        /*.word {
+            font-size: 5rem;
+            font-weight: bold;
+            margin: 2rem auto; /* กำหนดให้อยู่ตรงกลางและมีระยะห่าง 
+            display: none;
+            border: 4px solid #FF2D75;
+            padding: 2rem;
+            border-radius: 20px;
+            background-color: #333;
+            color: #ffffff;
+            flex-wrap: nowrap;
+            max-width: 90%;  กำหนดขนาดความกว้างสูงสุดเป็น 90% ของหน้าจอ 
         }
+
+        @media (max-width: 1200px) {
+        .word {
+            font-size: 4rem;
+        }
+        }
+
+        @media (max-width: 992px) {
+        .word {
+            font-size: 3.5rem;
+        }
+        }
+
+        @media (max-width: 768px) {
+        .word {
+            font-size: 3rem;
+            padding: 1.5rem;
+        }
+        }
+
+        @media (max-width: 576px) {
+        .word {
+            font-size: 2.5rem;
+            padding: 1rem;
+        }
+        }
+
+        @media (max-width: 375px) {
+        .word {
+            font-size: 2rem;
+            padding: 0.5rem;
+            margin-left: 1rem;
+        }
+        }*/
+
+        .word {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 2rem auto; /* กำหนดให้อยู่ตรงกลางและมีระยะห่างด้านบนและล่าง */
+  display: none;
+  border: 4px solid #FF2D75;
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: #333;
+  color: #ffffff;
+  flex-wrap: nowrap;
+  max-width: 90%; /* กำหนดขนาดความกว้างสูงสุดเป็น 90% ของหน้าจอ */
+  margin-left: 1rem; /* เพิ่มระยะห่างด้านซ้าย */
+}
+
+@media (max-width: 1200px) {
+  .word {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .word {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .word {
+    font-size: 3rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .word {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .word {
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-left: 1rem; /* เพิ่มระยะห่างด้านซ้ายสำหรับหน้าจอขนาดเล็ก */
+  }
+}
+
+
 
         .buttons {
             display: none;
